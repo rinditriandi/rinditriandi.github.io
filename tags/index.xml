@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on TintaPena</title>
-    <link>https://example.com/tags/</link>
+    <link>https://rinditriandi.github.io/tags/</link>
     <description>Recent content in Tags on TintaPena</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>TintaPena</copyright>
-    <lastBuildDate>Tue, 25 Oct 2022 01:30:54 +0000</lastBuildDate><atom:link href="https://example.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 25 Oct 2022 01:30:54 +0000</lastBuildDate><atom:link href="https://rinditriandi.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Software</title>
-      <link>https://example.com/tags/software/</link>
+      <link>https://rinditriandi.github.io/tags/software/</link>
       <pubDate>Tue, 25 Oct 2022 01:30:54 +0000</pubDate>
       
-      <guid>https://example.com/tags/software/</guid>
+      <guid>https://rinditriandi.github.io/tags/software/</guid>
       <description></description>
     </item>
     
