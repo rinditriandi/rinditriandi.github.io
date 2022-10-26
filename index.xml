@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>TintaPena</title>
+    <link>https://example.com/</link>
+    <description>Recent content on TintaPena</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>TintaPena</copyright>
+    <lastBuildDate>Tue, 25 Oct 2022 01:30:54 +0000</lastBuildDate><atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dokumentasi Pengembangan Software, Apa Perlu?</title>
+      <link>https://example.com/posts/2022/dokumentasi-pengembangan-software/</link>
+      <pubDate>Tue, 25 Oct 2022 01:30:54 +0000</pubDate>
+      
+      <guid>https://example.com/posts/2022/dokumentasi-pengembangan-software/</guid>
+      <description>Basic 1#lang racket 2(provide (all-defined-out)) 3 4;this is a comment 5 6(define s &amp;#34;hello&amp;#34;) 7 8(define x 3) 9(define y (+ x 2)) 10 11(define cube1 12 (lambda (x) 13 (* x (* x x)))) 14 15(define cube2 16 (lambda (x) 17 (* x x x))) 18 19(define (cube3 x) 20 (* x x x)) 21 22(define (pow1 x y) 23 (if (=y 0) 24 1 25 (* x (pow1 x (- y 1))))) 26 27; currying 28(define pow2 29 (lambda (x) 30 (lambda (y) 31 (pow1 x y)))) </description>
+    </item>
+    
+    <item>
+      <title>Tentang Saya</title>
+      <link>https://example.com/tentang-saya/</link>
+      <pubDate>Tue, 25 Oct 2016 17:51:42 +0000</pubDate>
+      
+      <guid>https://example.com/tentang-saya/</guid>
+      <description>Tentang Saya Hai perkenalkan nama saya Rindi Triandi, sobat bisa panggil saya Rindi. Saya seorang pekerja fulltime di salah satu profesional consultant di Jakarta. Saya memiliki kurang lebih 12 tahun di bidang IT terutama dalam pengembangan software. Beberapa industri yang pernah saya kuasai seperti Sales dan distribusi, Konstruksi, Properti, Education.
+Saat ini kegiatan saya lebih banyak dilakukan di rumah secara remote untuk itu saya bisa memiliki waktu yang lebih leluasa :)</description>
+    </item>
+    
+    <item>
+      <title>幸せ</title>
+      <link>https://example.com/posts/2022-10-25-test/</link>
+      <pubDate>Sat, 22 Oct 2016 16:56:54 +0000</pubDate>
+      
+      <guid>https://example.com/posts/2022-10-25-test/</guid>
+      <description>:-)
+Look at the stars
+抬头仰望满天繁星
+Look how they shine for you
+看它们为你绽放着 闪烁不息
+And everything you do
+而你的一颦一举
+Yeah&amp;rsquo; they were all Yellow
+却满含胆怯和羞意
+I came along
+我追随着你的气息
+I wrote a song for you
+为你写下一首歌曲
+And all the things you do
+回想着你的所有举动和笑意
+it was called Yellow
+并用Yellow为这首歌命名
+So then I took my turn
+我耗尽心力
+Oh what a thing to have done
+用行动表达我的爱意
+And it was all Yellow
+噢这过程充满不安羞怯和点滴暖意
+Your skin</description>
+    </item>
+    
+  </channel>
+</rss>
