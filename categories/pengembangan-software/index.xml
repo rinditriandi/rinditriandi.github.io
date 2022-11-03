@@ -17,5 +17,14 @@
       <description>Basic 1#lang racket 2(provide (all-defined-out)) 3 4;this is a comment 5 6(define s &amp;#34;hello&amp;#34;) 7 8(define x 3) 9(define y (+ x 2)) 10 11(define cube1 12 (lambda (x) 13 (* x (* x x)))) 14 15(define cube2 16 (lambda (x) 17 (* x x x))) 18 19(define (cube3 x) 20 (* x x x)) 21 22(define (pow1 x y) 23 (if (=y 0) 24 1 25 (* x (pow1 x (- y 1))))) 26 27; currying 28(define pow2 29 (lambda (x) 30 (lambda (y) 31 (pow1 x y)))) </description>
     </item>
     
+    <item>
+      <title>Enterprise ARchitecture</title>
+      <link>https://rinditriandi.github.io/posts/2022/enterprise-architecture/</link>
+      <pubDate>Tue, 25 Oct 2022 01:30:54 +0000</pubDate>
+      
+      <guid>https://rinditriandi.github.io/posts/2022/enterprise-architecture/</guid>
+      <description>Basic 1#lang racket 2(provide (all-defined-out)) 3 4;this is a comment 5 6(define s &amp;#34;hello&amp;#34;) 7 8(define x 3) 9(define y (+ x 2)) 10 11(define cube1 12 (lambda (x) 13 (* x (* x x)))) 14 15(define cube2 16 (lambda (x) 17 (* x x x))) 18 19(define (cube3 x) 20 (* x x x)) 21 22(define (pow1 x y) 23 (if (=y 0) 24 1 25 (* x (pow1 x (- y 1))))) 26 27; currying 28(define pow2 29 (lambda (x) 30 (lambda (y) 31 (pow1 x y)))) </description>
+    </item>
+    
   </channel>
 </rss>
